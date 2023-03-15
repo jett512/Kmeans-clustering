@@ -1,4 +1,3 @@
-# Scalable High Dimensional Indexing and Search
 
 # Kmeans++ on HDF5 data
 * Kmeans++ implementation from https://github.com/ieyjzhou/KmeansPlusPlus, that has been modified to accept HDF5 datasets. The goal of this program is to give a cluster assignment to vectors that are close together. The vectors should be given one assignment each, and clustered around an initialized centroid based on the Kmeans++ algorithm.
