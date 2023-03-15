@@ -1,10 +1,5 @@
 # Scalable High Dimensional Indexing and Search
 
-## Github Repositories
-* [C++ indexing repos](https://github.com/topics/indexing?l=c%2B%2B)
-* [Clustering](https://github.com/topics/clustering?l=c)
-  * [and search](https://github.com/topics/clustering?l=c%2B%2B&q=clustering+search)
-  * [and indexing](https://github.com/topics/clustering?l=c%2B%2B&q=clustering+indexing)
 # Kmeans++ on HDF5 data
 * Kmeans++ implementation from https://github.com/ieyjzhou/KmeansPlusPlus, that has been modified to accept HDF5 datasets. The goal of this program is to give a cluster assignment to vectors that are close together. The vectors should be given one assignment each, and clustered around an initialized centroid based on the Kmeans++ algorithm.
 * The example data is included under the H5Data folder, but has been zipped to allow for uploads onto github. Unzip this file to test the data using the ground truth features.
